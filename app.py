@@ -4,7 +4,8 @@ import os
 import requests
 import io
 
-playlist_url = 'https://www.youtube.com/playlist?list=PLHRfWmB-cTz-fopGK4LxferxnVKokgglm'
+#Ingresa la url para descargar el playlist
+playlist_url = ''
 
 playlist = Playlist(playlist_url)
 
