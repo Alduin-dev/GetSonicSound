@@ -9,7 +9,7 @@ playlist_url = ''
 
 playlist = Playlist(playlist_url)
 
-mp3_folder = 'mp3_conversions'
+mp3_folder = 'music'
 
 if not os.path.exists(mp3_folder):
     os.makedirs(mp3_folder)
