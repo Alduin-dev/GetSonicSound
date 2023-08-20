@@ -11,7 +11,7 @@ def on_progress(stream, chunk, bytes_remaining):
     percentage = (bytes_downloaded / total_size) * 100
     print(f"Descargando... {percentage:.2f}% completado", end='\r')
 
-# Ingresa la URL del video
+# Ingresa la URL del Video o Playlist
 url = ''
 
 is_playlist = 'playlist' in url
